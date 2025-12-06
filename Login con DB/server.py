@@ -19,10 +19,10 @@ logging.getLogger('spyne.server.wsgi').setLevel(logging.DEBUG)
 
 # --- CONFIGURACIÓN DE LA BASE DE DATOS MYSQL ---
 DB_USER = "root"
-DB_PASS = "DIAMONDCHAIR44" # ¡Cámbialo!
+DB_PASS = "S1stemas24" 
 DB_HOST = "localhost"
 DB_PORT = "3306"
-DB_NAME = "soap_login_db"
+DB_NAME = "SOAP"
 
 # Cadena de conexión para MySQL con PyMySQL
 DATABASE_URL = f"mysql+pymysql://{DB_USER}:{DB_PASS}@{DB_HOST}:{DB_PORT}/{DB_NAME}" 
